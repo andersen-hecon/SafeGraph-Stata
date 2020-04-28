@@ -1,9 +1,6 @@
 clear all
 cd "d:\data\safegraph\sg\sd\v2"
-*local fs1: dir "." files "2020-03*.dta"
-*local fs2: dir "." files "2020-04*.dta"
 local fs: dir "." files "2020-??-??*.dta"
-*local fs: list fs1 | fs2
 di `"`fs'"'
 
 clear
